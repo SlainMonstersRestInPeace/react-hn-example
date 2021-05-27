@@ -1,0 +1,41 @@
+@import "../../bootstrap/scss/bootstrap.scss";
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  // md: 825px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+:root {
+  --hn-dark-orange: #FF6600;
+  --hn-text-dark: black;
+  --hn-text-light: white;
+  --hn-text-gray: #828282;
+  --hn-beige: #F6F6EF;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: var(--hn-dark-orange);
+}
+
+main {
+  background: var(--hn-beige);
+}
+
+footer {
+  background: var(--hn-beige);
+}
+
+.comment-text p:last-child {
+  margin-bottom: 0;
+}
+
+.comment-text a {
+  color: var(--hn-text-dark);
+}
